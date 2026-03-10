@@ -117,21 +117,21 @@ recognition rates by nationality, and temporal trends. Expand each section to ex
 """)
 
 with st.expander('🔍 Turkey as a Refugee Host Country'):
-    st.image('visualizations/to_turkey_analysis.png', width='stretch')
+    st.image(VISUALIZATIONS_DIR / 'to_turkey_analysis.png', width='stretch')
     st.caption("""
     **Key Insights:** Afghanistan sent the most applications overall (~389k), followed by Iraq (~301k).  
     Syria has the highest recognition rate among top applicant countries (~93%), with others varying significantly.
     """)
 
 with st.expander('🔍 Turkey as an Origin Country'):
-    st.image('visualizations/from_turkey_analysis.png', width='stretch')
+    st.image(VISUALIZATIONS_DIR / 'from_turkey_analysis.png', width='stretch')
     st.caption("""
     **Key Insights:** Germany received the most Turkish asylum applications (~350k), followed by France.  
     Recognition rates vary widely by destination country, with Canada showing the highest acceptance rate.
     """)
 
 with st.expander("🔍 Comparative Analysis: Turkey's Dual Role"):
-    st.image('visualizations/comparison_analysis.png', width='stretch')
+    st.image(VISUALIZATIONS_DIR / 'comparison_analysis.png', width='stretch')
     st.caption("""
     **Key Insight:** The crossover point occurred around 2021-2023, when Turkish citizens seeking asylum abroad 
     began to exceed refugees seeking protection in Turkey (in formal applications tracked by UNHCR).
