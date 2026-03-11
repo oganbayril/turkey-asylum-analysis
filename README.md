@@ -130,4 +130,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Created by [oganbayril](https://github.com/oganbayril)
+**Author:** [oganbayril](https://github.com/oganbayril)  
+**Contact:** oganbayril.dev@gmail.com
+**Project Repository:** [turkey-asylum-analysis](https://github.com/oganbayril/turkey-asylum-analysis)
